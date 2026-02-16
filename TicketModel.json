@@ -1,0 +1,965 @@
+[
+    {
+        "id": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "type": "EgSchema",
+        "egLabel": "Ticket Model",
+        "egBaseIRIPrefix": "ex",
+        "egBaseIRI": "https://example.com/base/",
+        "egDescription": "My model built on 19/11/2025, 10:00:29",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egLanguageCode": "en",
+        "egModifiedDate": "2026-01-22T14:30:30.959Z"
+    },
+    {
+        "id": "https://example.com/base/shape/1cd488cf-eef6-4de0-b576-ce3901421b67",
+        "type": "ShNodeShape",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "shTargetClass": "https://example.com/base/class/f62d0c2b-71b8-465e-ac03-e07b24d94a97",
+        "shProperty": [
+            {
+                "id": "_:70a657ec-8bc3-4932-8c6d-ae076af72213",
+                "fromShape": "https://example.com/base/shape/1cd488cf-eef6-4de0-b576-ce3901421b67",
+                "shPath": "https://example.com/base/property/888439db-7f83-45d2-b68e-d567ba5bffda",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:a5a18371-cb9c-47f6-8cf8-c3aaf6216c73",
+                "fromShape": "https://example.com/base/shape/1cd488cf-eef6-4de0-b576-ce3901421b67",
+                "shPath": "https://example.com/base/property/55bdf8ef-d93c-401c-9c42-a767de1b1534",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:6f2ea69b-8973-4f5b-8b50-45eda11100cf",
+                "fromShape": "https://example.com/base/shape/1cd488cf-eef6-4de0-b576-ce3901421b67",
+                "shPath": "https://example.com/base/property/28c00e8a-3276-40b7-b8c4-dd3b351298f6",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            }
+        ]
+    },
+    {
+        "id": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+        "type": "ShNodeShape",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "shTargetClass": "https://example.com/base/class/3c2f4037-50c8-431e-a657-45fc4edabaab",
+        "shProperty": [
+            {
+                "id": "_:5a2c4423-e0f0-4313-94ac-3cc83a96be4a",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/c727c841-814b-4b7d-bd41-d6b4e82fb66c",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:fbb152ad-de44-4b19-bc0f-b94e182a784c",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/ee5efbc0-b624-4045-874d-d0557a0bc87d",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#decimal"
+            },
+            {
+                "id": "_:35ce2b02-3dd6-4987-9e43-9ed10f3c598f",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/c58b8db2-2085-4417-875d-2531bc82075c",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:fcadb621-b0c4-4038-a997-b14cae9aa947",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/8257c9c1-ebda-4b71-a0e3-3af38a82fea4",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:b5005136-d21a-4035-97ec-c0ef44eded81",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/2177db57-1cc8-439c-8168-a1dd7ab91066",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:feff498e-e8d9-4aa4-a2dd-3a50d4b53b95",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/030dd61d-636a-418e-a3c2-20013ecde2f0",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#decimal"
+            },
+            {
+                "id": "_:d8415095-bcb0-408b-89d7-54b130ae626a",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/6a552aa6-e72c-4897-b5c9-5ef7d456f698",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:b62d2619-fb7e-4f9f-9406-119921bcbc0f",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/203333fd-0469-4945-98b8-b8aa99c925fc",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#decimal"
+            },
+            {
+                "id": "_:069e8e21-9741-4d36-bf37-f82b31238277",
+                "fromShape": "https://example.com/base/shape/7de5bf6b-0b4c-4375-811d-02cc67480c8e",
+                "shPath": "https://example.com/base/property/e089aafc-03e2-463e-a854-1c05cdc8a8fd",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#decimal"
+            }
+        ]
+    },
+    {
+        "id": "https://example.com/base/shape/2f6dd453-52c2-48de-972f-c0828b9d9515",
+        "type": "ShNodeShape",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "shTargetClass": "https://example.com/base/class/9788cee9-16c4-43f9-92b5-307596abbcae",
+        "shProperty": [
+            {
+                "id": "_:fb41e88b-cd81-4114-88ef-ce72903a9951",
+                "fromShape": "https://example.com/base/shape/2f6dd453-52c2-48de-972f-c0828b9d9515",
+                "shPath": "https://example.com/base/property/e26a12f8-75b2-48e2-9070-3483d12deae4",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:9e6d7335-5f99-47f6-9c62-dd8d2932cf6e",
+                "fromShape": "https://example.com/base/shape/2f6dd453-52c2-48de-972f-c0828b9d9515",
+                "shPath": "https://example.com/base/property/e2234834-0390-49ab-9196-e7a3ffacf5e5",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://example.com/base/class/3c2f4037-50c8-431e-a657-45fc4edabaab"
+            },
+            {
+                "id": "_:202799fb-460a-4194-b028-f332d75d0e93",
+                "fromShape": "https://example.com/base/shape/2f6dd453-52c2-48de-972f-c0828b9d9515",
+                "shPath": "https://example.com/base/property/73975d99-9945-44e6-af34-a70667571fec",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://example.com/base/class/bd774aac-ba4b-412b-8276-f228b7810b2c"
+            },
+            {
+                "id": "_:2fa5b171-f0a4-41c6-9552-925aaf057afc",
+                "fromShape": "https://example.com/base/shape/2f6dd453-52c2-48de-972f-c0828b9d9515",
+                "shPath": "https://example.com/base/property/a389556e-8e12-4d1d-8bd4-fa0c192a1324",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            {
+                "id": "_:ba3b50e4-a849-4432-99da-57a7998607e4",
+                "fromShape": "https://example.com/base/shape/2f6dd453-52c2-48de-972f-c0828b9d9515",
+                "shPath": "https://example.com/base/property/e7214492-0574-4d25-aa50-193c6ffb4bcf",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://contentgraph.info/advanced/tourism/Airline",
+                "egInComponent": "https://contentgraph.info/advanced/airline"
+            },
+            {
+                "id": "_:ed0e38f6-713f-4194-90c2-bb994d2a7979",
+                "fromShape": "https://example.com/base/shape/2f6dd453-52c2-48de-972f-c0828b9d9515",
+                "shPath": "https://example.com/base/property/345e331a-c11b-4792-8168-25319ccebe54",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://example.com/base/class/f62d0c2b-71b8-465e-ac03-e07b24d94a97"
+            },
+            {
+                "id": "_:e80b18b7-1ab6-4f8a-bd6f-671186171120",
+                "fromShape": "https://example.com/base/shape/2f6dd453-52c2-48de-972f-c0828b9d9515",
+                "shPath": "https://example.com/base/property/a8c8b6c8-cd43-42ed-b500-977dd12c85ac",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            }
+        ]
+    },
+    {
+        "id": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+        "type": "ShNodeShape",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "shTargetClass": "https://example.com/base/class/bd774aac-ba4b-412b-8276-f228b7810b2c",
+        "shProperty": [
+            {
+                "id": "_:47d795b8-9d0c-453c-bdcb-cab6eca35621",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/f125f2a9-6f73-4ab5-985e-2a28f24b3c18",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://contentgraph.info/advanced/tourism/Airline",
+                "egInComponent": "https://contentgraph.info/advanced/airline"
+            },
+            {
+                "id": "_:47dea6f1-6640-47c6-8d15-410801cfbdc4",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/2697a9aa-1819-4a0d-b562-2673050620eb",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://contentgraph.info/advanced/tourism/Airport",
+                "egInComponent": "https://contentgraph.info/advanced/airport"
+            },
+            {
+                "id": "_:332be04e-c19a-4c39-8fea-78724a4e0bd2",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/84cedf54-8831-485b-a86c-5d8206604f9e",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            {
+                "id": "_:d94730bd-0a33-41e0-a8a7-c66c889bb883",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/da31c52e-78c5-4bff-8b60-fcb6ecfc0bb3",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://contentgraph.info/advanced/tourism/Airport",
+                "egInComponent": "https://contentgraph.info/advanced/airport"
+            },
+            {
+                "id": "_:0dd83b9c-34f4-4172-88f8-6b73fd8a4146",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/b1c05e80-9498-440f-ad49-fc83c3879012",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            {
+                "id": "_:cb6c074c-f9af-4823-8e99-7208bc5f3e8e",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/9ed95a27-3c5d-43bc-826d-770388a08eb1",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:143a03ea-a866-4153-a7a6-edad6ddd0aa2",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/ba6b8f39-cd91-4ef7-b722-225e3fe83427",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:a1fda2df-ca0a-488e-ad7a-d19e9e421150",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/15e1d44f-4157-4021-b264-874dea82940c",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:bf71e264-6414-46aa-a1a5-c4b0b6ccd60c",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/b95893f9-1925-44d9-adfe-66e5389db4e9",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:aed1d556-2035-41b2-816c-33015754afe7",
+                "fromShape": "https://example.com/base/shape/0ff51e3b-0671-4fa2-a10f-dc05fa98476b",
+                "shPath": "https://example.com/base/property/a2df1ba6-5f6f-451a-8157-040f2b1ff82a",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            }
+        ]
+    },
+    {
+        "id": "https://example.com/base/shape/a1ffe141-9ec5-4f89-8279-5a25669f5b2f",
+        "type": "ShNodeShape",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "shTargetClass": "https://contentgraph.info/advanced/tourism/Airline",
+        "shProperty": [
+            {
+                "id": "_:98f05388-28a2-47a0-a42f-c1f482e33458",
+                "fromShape": "https://example.com/base/shape/a1ffe141-9ec5-4f89-8279-5a25669f5b2f",
+                "shPath": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                "shDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+        ]
+    },
+    {
+        "id": "https://example.com/base/shape/f9580476-4815-4793-b191-b2a8196d2856",
+        "type": "ShNodeShape",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "shTargetClass": "https://contentgraph.info/advanced/tourism/Airport",
+        "shProperty": [
+            {
+                "id": "_:4162cac4-af5b-44e0-a8ee-4f29852cd69b",
+                "fromShape": "https://example.com/base/shape/f9580476-4815-4793-b191-b2a8196d2856",
+                "shPath": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                "shDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+        ]
+    },
+    {
+        "id": "https://example.com/base/shape/9d744ff6-11ad-4466-8599-420aa6c336bd",
+        "type": "ShNodeShape",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "shTargetClass": "https://contentgraph.info/advanced/tourism/Hotel",
+        "shProperty": [
+            {
+                "id": "_:306ea723-9815-49d7-b42f-414fd9b75ff9",
+                "fromShape": "https://example.com/base/shape/9d744ff6-11ad-4466-8599-420aa6c336bd",
+                "shPath": "http://www.w3.org/2000/01/rdf-schema#label",
+                "shDatatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+        ]
+    },
+    {
+        "id": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+        "type": "ShNodeShape",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "shTargetClass": "https://example.com/base/class/2b66aee5-265e-4fdf-8693-58a72f365653",
+        "shProperty": [
+            {
+                "id": "_:3b8a0090-f4db-4ede-8562-58c9f762664d",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/e26a12f8-75b2-48e2-9070-3483d12deae4",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:bba44380-c9c4-42bd-952b-8975bdbe817f",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/ada8d7dc-4090-4915-914b-0bc1cb09a083",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            {
+                "id": "_:4ea71eea-d0a2-40a0-b664-7f8b30a6951c",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/6e40d991-8ef3-4e16-92d5-637663f22744",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            {
+                "id": "_:bc0a33a1-87c9-4c7e-bc89-deb14dab2d6c",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/c4f13e29-7574-4dc4-b349-7592d64a233f",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://example.com/base/class/f62d0c2b-71b8-465e-ac03-e07b24d94a97"
+            },
+            {
+                "id": "_:ee980f03-580e-4e1f-ae99-995a3ca27bf4",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/430a9b1f-3110-4826-812a-b3d7268766b8",
+                "shNodeKind": "http://www.w3.org/ns/shacl#IRI",
+                "shClass": "https://contentgraph.info/advanced/tourism/Hotel",
+                "egInComponent": "https://contentgraph.info/advanced/hotel"
+            },
+            {
+                "id": "_:eeae0904-655a-4838-aed9-55428f81194a",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/1a221508-2566-4984-ab42-07a0c580d2bf",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            {
+                "id": "_:9b7cb617-c71a-43b1-9698-fcecb6705e86",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/c3a78e9a-d750-4cbf-a140-3b92a8f15874",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#decimal"
+            },
+            {
+                "id": "_:55ed54be-56bb-4ba0-ae83-9f972d7912e0",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/7833b7be-174f-423b-be21-7e01828a731d",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#string"
+            },
+            {
+                "id": "_:e6deab8f-bc4e-48a5-b0b1-c0aea90d6908",
+                "fromShape": "https://example.com/base/shape/85ae2e01-6e0c-4da8-bc8a-19591039a5c6",
+                "shPath": "https://example.com/base/property/3f31a530-ac95-48d8-a8d7-04515f387103",
+                "shDatatype": "http://www.w3.org/2001/XMLSchema#decimal"
+            }
+        ]
+    },
+    {
+        "id": "https://example.com/base/property/55bdf8ef-d93c-401c-9c42-a767de1b1534",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "name",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Full name of the person",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/28c00e8a-3276-40b7-b8c4-dd3b351298f6",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "passengerType",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Type of passenger (e.g., Adult, Child)",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/888439db-7f83-45d2-b68e-d567ba5bffda",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "frequentFlyerNumber",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Frequent flyer number",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/e26a12f8-75b2-48e2-9070-3483d12deae4",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "bookingReference",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Unique booking reference for the hotel booking",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/430a9b1f-3110-4826-812a-b3d7268766b8",
+        "type": "OwlObjectProperty",
+        "egLabel": "hotel",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Hotel associated with the booking",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/ada8d7dc-4090-4915-914b-0bc1cb09a083",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "checkInDate",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Check-in date",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#date",
+            "label": "Date",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#date",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/6e40d991-8ef3-4e16-92d5-637663f22744",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "checkOutDate",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Check-out date",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#date",
+            "label": "Date",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#date",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/1a221508-2566-4984-ab42-07a0c580d2bf",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "numberOfNights",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Number of nights for the stay",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#integer",
+            "label": "Integer",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#integer",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/7833b7be-174f-423b-be21-7e01828a731d",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "roomType",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Type of room booked",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/c3a78e9a-d750-4cbf-a140-3b92a8f15874",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "pricePerNight",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Price per night",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#decimal",
+            "label": "Decimal",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#decimal",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/3f31a530-ac95-48d8-a8d7-04515f387103",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "totalPrice",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Total price for the stay",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#decimal",
+            "label": "Decimal",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#decimal",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/c4f13e29-7574-4dc4-b349-7592d64a233f",
+        "type": "OwlObjectProperty",
+        "egLabel": "guest",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Guest associated with the hotel booking",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/a8c8b6c8-cd43-42ed-b500-977dd12c85ac",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "ticketNumber",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Ticket number",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/a389556e-8e12-4d1d-8bd4-fa0c192a1324",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "issueDate",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Date the ticket was issued",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#date",
+            "label": "Date",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#date",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/e7214492-0574-4d25-aa50-193c6ffb4bcf",
+        "type": "OwlObjectProperty",
+        "egLabel": "issuedBy",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Airline that issued the ticket",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/345e331a-c11b-4792-8168-25319ccebe54",
+        "type": "OwlObjectProperty",
+        "egLabel": "passenger",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Passenger associated with the ticket",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/e2234834-0390-49ab-9196-e7a3ffacf5e5",
+        "type": "OwlObjectProperty",
+        "egLabel": "fare",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Fare details for the ticket",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/73975d99-9945-44e6-af34-a70667571fec",
+        "type": "OwlObjectProperty",
+        "egLabel": "flight",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Flight included in the ticket",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/47a13b97-4acb-4eae-99cb-59d996707ed1",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "rating",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Hotel rating",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/dd2f7727-f02a-4167-b1b3-8df0c8cd0328",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "location",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Location of the hotel",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/42f6db0c-cb22-4926-9573-41513163d041",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "airlineCode",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Airline code",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/b95893f9-1925-44d9-adfe-66e5389db4e9",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "flightNumber",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Flight number",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/f125f2a9-6f73-4ab5-985e-2a28f24b3c18",
+        "type": "OwlObjectProperty",
+        "egLabel": "airline",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Airline operating the flight",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/da31c52e-78c5-4bff-8b60-fcb6ecfc0bb3",
+        "type": "OwlObjectProperty",
+        "egLabel": "departureAirport",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Airport of departure",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/2697a9aa-1819-4a0d-b562-2673050620eb",
+        "type": "OwlObjectProperty",
+        "egLabel": "arrivalAirport",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Airport of arrival",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/b1c05e80-9498-440f-ad49-fc83c3879012",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "departureDateTime",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Date and time of departure",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "label": "Date/Time",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/84cedf54-8831-485b-a86c-5d8206604f9e",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "arrivalDateTime",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Date and time of arrival",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "label": "Date/Time",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/9ed95a27-3c5d-43bc-826d-770388a08eb1",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "departureTerminal",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Terminal of departure",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/15e1d44f-4157-4021-b264-874dea82940c",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "flightClass",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Class of service (e.g., Economy, Business)",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/a2df1ba6-5f6f-451a-8157-040f2b1ff82a",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "seat",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Seat assignment",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/ba6b8f39-cd91-4ef7-b722-225e3fe83427",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "duration",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Duration of the flight",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/013d7bbb-2ce4-41ec-8b52-660bbd6c9cae",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "airportCode",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Airport code",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/ee5efbc0-b624-4045-874d-d0557a0bc87d",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "baseFare",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Base fare amount",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#decimal",
+            "label": "Decimal",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#decimal",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/203333fd-0469-4945-98b8-b8aa99c925fc",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "taxes",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Taxes amount",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#decimal",
+            "label": "Decimal",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#decimal",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/030dd61d-636a-418e-a3c2-20013ecde2f0",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "fees",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Fees amount",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#decimal",
+            "label": "Decimal",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#decimal",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/e089aafc-03e2-463e-a854-1c05cdc8a8fd",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "totalFare",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Total fare amount",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#decimal",
+            "label": "Decimal",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#decimal",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/8257c9c1-ebda-4b71-a0e3-3af38a82fea4",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "fareBasis",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Fare basis code",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/c727c841-814b-4b7d-bd41-d6b4e82fb66c",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "baggageAllowance",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Baggage allowance",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/c58b8db2-2085-4417-875d-2531bc82075c",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "endorsements",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Endorsements or restrictions",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/2177db57-1cc8-439c-8168-a1dd7ab91066",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "fareCalculation",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Fare calculation details",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/6a552aa6-e72c-4897-b5c9-5ef7d456f698",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "formOfPayment",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Form of payment used",
+        "egPropertyType": {
+            "value": "http://www.w3.org/2001/XMLSchema#string",
+            "label": "String",
+            "tooltip": "http://www.w3.org/2001/XMLSchema#string",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egExternal": true,
+        "egPropertyType": {
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "label": "Language Tagged String",
+            "tooltip": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "http://www.w3.org/2000/01/rdf-schema#label",
+        "type": "OwlDatatypeProperty",
+        "egLabel": "http://www.w3.org/2000/01/rdf-schema#label",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egExternal": true,
+        "egPropertyType": {
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "label": "Language Tagged String",
+            "tooltip": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+            "group": "Data Type"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/d3bd54ea-73b1-4627-9b7f-8b866998e9af",
+        "type": "OwlObjectProperty",
+        "egLabel": "mentionsAirport",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/property/e8905831-fca4-4d4b-aaf0-80e67fa1ae18",
+        "type": "OwlObjectProperty",
+        "egLabel": "mentionsAirline",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egPropertyType": {
+            "label": "Object Linking",
+            "value": "https://easygraph.graphifi.com/schema/eg/ObjectLinkingProperty",
+            "group": "Object"
+        }
+    },
+    {
+        "id": "https://example.com/base/class/f62d0c2b-71b8-465e-ac03-e07b24d94a97",
+        "type": "OwlClass",
+        "egLabel": "Person",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "A person, such as a passenger or hotel guest."
+    },
+    {
+        "id": "https://example.com/base/class/3c2f4037-50c8-431e-a657-45fc4edabaab",
+        "type": "OwlClass",
+        "egLabel": "Fare",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "Fare details for a ticket, including amounts and conditions."
+    },
+    {
+        "id": "https://contentgraph.info/advanced/tourism/Airport",
+        "type": "OwlClass",
+        "egLabel": "https://contentgraph.info/advanced/tourism/Airport",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egExternal": true
+    },
+    {
+        "id": "https://contentgraph.info/advanced/tourism/Airline",
+        "type": "OwlClass",
+        "egLabel": "https://contentgraph.info/advanced/tourism/Airline",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egExternal": true
+    },
+    {
+        "id": "https://example.com/base/class/9788cee9-16c4-43f9-92b5-307596abbcae",
+        "type": "OwlClass",
+        "egLabel": "Ticket",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "An airline ticket, including booking and passenger information."
+    },
+    {
+        "id": "https://example.com/base/class/bd774aac-ba4b-412b-8276-f228b7810b2c",
+        "type": "OwlClass",
+        "egLabel": "Flight",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "A flight segment, including airline, airports, times, and seat."
+    },
+    {
+        "id": "https://contentgraph.info/advanced/tourism/Hotel",
+        "type": "OwlClass",
+        "egLabel": "https://contentgraph.info/advanced/tourism/Hotel",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egExternal": true
+    },
+    {
+        "id": "https://example.com/base/class/2b66aee5-265e-4fdf-8693-58a72f365653",
+        "type": "OwlClass",
+        "egLabel": "HotelBooking",
+        "egIsModelResourceOf": "https://example.com/base/model/d9efed2e-7920-4ede-9d25-6c48edf87ae5",
+        "egDescription": "A hotel booking, including hotel, dates, room, and guest."
+    }
+]
