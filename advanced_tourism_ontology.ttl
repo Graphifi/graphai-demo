@@ -1,0 +1,640 @@
+@prefix :                               <https://www.volvetech.com/ontologies/construction-project#> .
+@prefix AT:                             <http://www.ifomis.org/acgt/1.0#AT/> .
+@prefix BFO:                            <http://purl.obolibrary.org/obo/bfo.owl#> .
+@prefix NumberOfStemCellsX10ToThe4CD3:  <http://www.ifomis.org/acgt/1.0#NumberOfStemCellsX10ToThe4CD3+/> .
+@prefix NumberOfStemCellsX10ToThe6CD34: <http://www.ifomis.org/acgt/1.0#NumberOfStemCellsX10ToThe6CD34+/> .
+@prefix NumberOfStemCellsX10ToThe8ANC:  <http://www.ifomis.org/acgt/1.0#NumberOfStemCellsX10ToThe8ANC/> .
+@prefix OBO_REL:                        <http://purl.org/obo/owl/OBO_REL#> .
+@prefix PATO:                           <http://purl.org/obo/owl/PATO#> .
+@prefix Property:                       <https://www.wikidata.org/wiki/Property:> .
+@prefix SGOT:                           <http://www.ifomis.org/acgt/1.0#SGOT/> .
+@prefix SIOP2001:                       <http://www.ifomis.org/acgt/1.0#SIOP2001/> .
+@prefix a1312cat:                       <http://cvx.iptc.org/anpa1312-category/> .
+@prefix a1312prio:                      <http://cvx.iptc.org/anpa1312-priority/> .
+@prefix a1312svc:                       <http://cvx.iptc.org/anpa1312-servicelevel/> .
+@prefix a1312vers:                      <http://cvx.iptc.org/anpa1312-version/> .
+@prefix acdc:                           <http://cv.iptc.org/newscodes/audiocodec/> .
+@prefix acgt:                           <http://www.ifomis.org/acgt/1.0#> .
+@prefix acgt2:                          <http://www.ifomis.org/acgt/1.0#3> .
+@prefix acl:                            <https://graphifi.com/schema/accesscontrol/> .
+@prefix ado:                            <http://purl.obolibrary.org/obo/ado#> .
+@prefix ai:                             <http://www.ai4eu.eu/ontologies/core#> .
+@prefix aicat:                          <https://stairwai.gitlab.io/wp3/ontology/topics.ttl#> .
+@prefix aitec:                          <https://stairwai.gitlab.io/wp3/ontology/ai_onto.ttl#> .
+@prefix altidrole:                      <http://cv.iptc.org/newscodes/altidrole/> .
+@prefix aoprop:                         <http://cv.iptc.org/newscodes/aoproperty/> .
+@prefix app:                            <http://cv.iptc.org/newscodes/application/> .
+@prefix aspfacet:                       <http://cv.iptc.org/newscodes/asportfacet/> .
+@prefix aspfacetvalue:                  <http://cv.iptc.org/newscodes/asportfacetvalue/> .
+@prefix bacnet:                         <http://data.ashrae.org/bacnet/2020#> .
+@prefix bcp47:                          <http://cvx.iptc.org/bcp47/> .
+@prefix bf:                             <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc:                           <http://id.loc.gov/ontologies/bflc/> .
+@prefix bfo:                            <http://www.ifomis.org/bfo/1.1#> .
+@prefix bot:                            <https://w3id.org/bot#> .
+@prefix brick:                          <https://brickschema.org/schema/Brick#> .
+@prefix bsh:                            <https://brickschema.org/schema/BrickShape#> .
+@prefix bspo:                           <http://purl.obolibrary.org/obo/bspo#> .
+@prefix caloha-reqs-vetted:             <http://purl.obolibrary.org/obo/caloha-reqs-vetted#> .
+@prefix catinat:                        <http://cv.iptc.org/newscodes/catinature/> .
+@prefix cc:                             <http://creativecommons.org/ns#> .
+@prefix cellline:                       <http://www.ebi.ac.uk/cellline/> .
+@prefix cellline1:                      <http://www.ebi.ac.uk/cellline/> .
+@prefix chebi:                          <http://purl.obolibrary.org/obo/chebi/> .
+@prefix chebi2:                         <http://purl.obolibrary.org/obo/chebi#3> .
+@prefix chebi3:                         <http://purl.obolibrary.org/obo/chebi#> .
+@prefix chebi4:                         <http://purl.obolibrary.org/obo/chebi#2> .
+@prefix chebi5:                         <http://purl.obolibrary.org/obo/chebi#3> .
+@prefix chebi6:                         <http://purl.obolibrary.org/obo/chebi#1> .
+@prefix chprop:                         <http://cv.iptc.org/newscodes/characteristicsproperty/> .
+@prefix cinat:                          <http://cv.iptc.org/newscodes/cinature/> .
+@prefix ciprol:                         <http://cv.iptc.org/newscodes/contactinfopartrole/> .
+@prefix cito:                           <http://purl.org/spar/cito/> .
+@prefix cl:                             <http://purl.obolibrary.org/obo/cl#> .
+@prefix colin:                          <http://cv.iptc.org/newscodes/colourindicator/> .
+@prefix colsp:                          <http://cv.iptc.org/newscodes/colorspace/> .
+@prefix conf:                           <http://cv.iptc.org/newscodes/confidence/> .
+@prefix core:                           <http://purl.obolibrary.org/obo/uberon/core#> .
+@prefix core1:                          <http://purl.obolibrary.org/obo/core#> .
+@prefix cpnat:                          <http://cv.iptc.org/newscodes/cpnature/> .
+@prefix cpprole:                        <http://cv.iptc.org/newscodes/contentprodpartyrole/> .
+@prefix cptdefrole:                     <http://cv.iptc.org/newscodes/conceptdefinitionrole/> .
+@prefix cptnoterole:                    <http://cv.iptc.org/newscodes/conceptnoterole/> .
+@prefix crel:                           <http://cv.iptc.org/newscodes/conceptrelation/> .
+@prefix cry:                            <https://stairwai.gitlab.io/wp3/ontology/Country.ttl#> .
+@prefix csw:                            <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix ctag:                           <http://commontag.org/ns#> .
+@prefix ctech:                          <http://cv.iptc.org/newscodes/commtech/> .
+@prefix ctrol:                          <http://cv.iptc.org/newscodes/contributorrole/> .
+@prefix cusip:                          <http://cvx.iptc.org/cusip/> .
+@prefix cwarn:                          <http://cv.iptc.org/newscodes/contentwarning/> .
+@prefix cyc:                            <http://sw.cyc.com/concept/> .
+@prefix cycAnnot:                       <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix dbo:                            <http://dbpedia.org/ontology/> .
+@prefix dbpedia:                        <http://dbpedia.org/resource/> .
+@prefix dc:                             <http://purl.org/dc/terms/> .
+@prefix dcam:                           <http://purl.org/dc/dcam/> .
+@prefix dcat:                           <http://www.w3.org/ns/dcat#> .
+@prefix dce:                            <http://purl.org/dc/elements/1.1/> .
+@prefix dcmitype:                       <http://purl.org/dc/dcmitype/> .
+@prefix dct:                            <http://purl.org/dc/terms/> .
+@prefix dcterms:                        <http://purl.org/dc/terms/> .
+@prefix dctype:                         <http://purl.org/dc/dcmitype/> .
+@prefix digsrctype:                     <http://cv.iptc.org/newscodes/digitalsourcetype/> .
+@prefix dimensionunit:                  <http://cv.iptc.org/newscodes/dimensionunit/> .
+@prefix disease_ontology:               <http://purl.org/obo/owlapi/disease_ontology#> .
+@prefix dme:                            <https://grafsync.graphifi.com/schema/dm-entitlement/> .
+@prefix doap:                           <http://usefulinc.com/ns/doap#> .
+@prefix doid:                           <http://purl.obolibrary.org/obo/doid#> .
+@prefix dol:                            <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#> .
+@prefix dolceEd:                        <http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#> .
+@prefix dolceInf:                       <http://www.loa-cnr.it/ontologies/InformationObjects.owl#> .
+@prefix dolceLite:                      <http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#> .
+@prefix drol:                           <http://cv.iptc.org/newscodes/descriptionrole/> .
+@prefix dsc:                            <https://graphifi.com/data/discussion/> .
+@prefix dsi:                            <https://graphifi.com/data/discussionitem/> .
+@prefix dummy:                          <http://cv.iptc.org/newscodes/dummy/> .
+@prefix ecirol:                         <http://cv.iptc.org/newscodes/eventcontactinforole/> .
+@prefix edconf:                         <http://cv.iptc.org/newscodes/eventdateconfirm/> .
+@prefix ednoterole:                     <http://cv.iptc.org/newscodes/ednoterole/> .
+@prefix efo:                            <http://www.ebi.ac.uk/efo/> .
+@prefix elements:                       <http://purl.org/dc/elements/> .
+@prefix encd:                           <http://cv.iptc.org/newscodes/encoding/> .
+@prefix ent:                            <https://schema.grafsync.com/ns/entitlement/> .
+@prefix entityprop:                     <http://cv.iptc.org/newscodes/entityproperty/> .
+@prefix eocstat:                        <http://cv.iptc.org/newscodes/eventoccurstatus/> .
+@prefix eont:                           <http://www.gov.uk/dclg/eclaims#> .
+@prefix eorol:                          <http://cv.iptc.org/newscodes/eventorganiserrole/> .
+@prefix eprol:                          <http://cv.iptc.org/newscodes/eventparticipantrole/> .
+@prefix eregrol:                        <http://cv.iptc.org/newscodes/eventregrole/> .
+@prefix erol:                           <http://cv.iptc.org/newscodes/edrole/> .
+@prefix esco:                           <http://data.europa.eu/esco/model#> .
+@prefix euvoc:                          <http://publications.europa.eu/ontology/euvoc#> .
+@prefix ex:                             <http://test.com/> .
+@prefix ex2:                            <http://example2.com/> .
+@prefix exb:                            <http://example.com/> .
+@prefix fabio:                          <http://purl.org/vocab/frbr/core#> .
+@prefix fibo-be-fct-fct:                <https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/FunctionalEntities/> .
+@prefix fibo-be-ge-ge:                  <https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/GovernmentEntities/> .
+@prefix fibo-be-le-lp:                  <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/> .
+@prefix fibo-be-oac-exec:               <https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/Executives/> .
+@prefix fibo-fnd-aap-ppl:               <https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/> .
+@prefix fibo-fnd-gao-obj:               <https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/> .
+@prefix fibo-fnd-law-cor:               <https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/> .
+@prefix fibo-fnd-law-jur:               <https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/> .
+@prefix fibo-fnd-org-fm:                <https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/> .
+@prefix fibo-fnd-plc-loc:               <https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/> .
+@prefix fibo-fnd-pty-rl:                <https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Roles/> .
+@prefix fibo-fnd-rel-rel:               <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix fibo-fnd-utl-av:                <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix fisymtype:                      <http://cv.iptc.org/newscodes/financialinstrumentsymboltype/> .
+@prefix fn:                             <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf:                           <http://xmlns.com/foaf/0.1/> .
+@prefix foaf1:                          <http://xmlns.com/foaf/0.1/> .
+@prefix foo:                            <http://geneontology.org/foo/> .
+@prefix freebase:                       <http://rdf.freebase.com/ns/> .
+@prefix frmt:                           <http://cv.iptc.org/newscodes/format/> .
+@prefix gen:                            <http://cv.iptc.org/newscodes/generic/> .
+@prefix genre:                          <http://cv.iptc.org/newscodes/genre/> .
+@prefix geonames:                       <http://sws.geonames.org/> .
+@prefix gics:                           <http://cvx.iptc.org/gics/> .
+@prefix gn:                             <http://www.geonames.org/ontology#> .
+@prefix go:                             <http://purl.obolibrary.org/obo/go#> .
+@prefix grddl:                          <http://www.w3.org/2003/g/data-view#> .
+@prefix gs:                             <https://grafsync.graphifi.com/schema/gs/> .
+@prefix hSNF5:                          <http://www.ifomis.org/acgt/1.0#SMARCB/hSNF5/> .
+@prefix hashscope:                      <http://cv.iptc.org/newscodes/hashscope/> .
+@prefix hashtype:                       <http://cv.iptc.org/newscodes/hashtype/> .
+@prefix hatarget:                       <http://cv.iptc.org/newscodes/hopactiontarget/> .
+@prefix hopaction:                      <http://cv.iptc.org/newscodes/hopaction/> .
+@prefix howextr:                        <http://cv.iptc.org/newscodes/howextracted/> .
+@prefix howpr:                          <http://cv.iptc.org/newscodes/howpresent/> .
+@prefix hr:                             <https://demo.com/hr/> .
+@prefix hx:                             <http://cutomer2.org/thermal-exchanger/> .
+@prefix iirds:                          <http://iirds.tekom.de/iirds#> .
+@prefix ikos:                           <http://cv.iptc.org/newscodes/ikos/> .
+@prefix impt:                           <http://cv.iptc.org/newscodes/importance/> .
+@prefix iof-av:                         <https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/> .
+@prefix iof-core:                       <https://spec.industrialontologies.org/ontology/core/Core/> .
+@prefix irel:                           <http://cv.iptc.org/newscodes/itemrelation/> .
+@prefix irep:                           <http://cv.iptc.org/newscodes/itemrepresentation/> .
+@prefix isin:                           <http://cvx.iptc.org/isin/> .
+@prefix iso-thes:                       <http://purl.org/iso25964/skos-thes#> .
+@prefix iso3166-1a2:                    <http://cvx.iptc.org/iso3166-1a2/> .
+@prefix iso3166-1a3:                    <http://cvx.iptc.org/iso3166-1a3/> .
+@prefix iso4217a:                       <http://cvx.iptc.org/iso4217a/> .
+@prefix iso4217n:                       <http://cvx.iptc.org/iso4217n/> .
+@prefix isrol:                          <http://cv.iptc.org/newscodes/infosourcerole/> .
+@prefix itg:                            <https://grafsync.graphifi.com/data/integration/> .
+@prefix itmt:                           <https://itma.ie/litmus/tune-types#> .
+@prefix ivqu:                           <http://cv.iptc.org/newscodes/videoqualifier/> .
+@prefix jobs:                           <https://jobs.test.com/> .
+@prefix lbtyp:                          <http://cv.iptc.org/newscodes/labeltype/> .
+@prefix lcc-cr:                         <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr:                         <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix lis:                            <http://rds.posccaesar.org/ontology/lis14/rdl/> .
+@prefix loctyp:                         <http://cv.iptc.org/newscodes/location/> .
+@prefix loutorient:                     <http://cv.iptc.org/newscodes/layoutorientation/> .
+@prefix lrol:                           <http://cv.iptc.org/newscodes/languagerole/> .
+@prefix luc:                            <http://www.ontotext.com/owlim/lucene#> .
+@prefix m:                              <urn:stardog:modules:> .
+@prefix mash:                           <http://neuralalpha.com/vocabularies/mash#> .
+@prefix mb-artist:                      <http://musicbrainz.org/artist/> .
+@prefix mb-label:                       <http://musicbrainz.org/label/> .
+@prefix mb-recording:                   <http://musicbrainz.org/recording/> .
+@prefix mb-release:                     <http://musicbrainz.org/release/> .
+@prefix mb-releasegroup:                <http://musicbrainz.org/release-group/> .
+@prefix mb-work:                        <http://musicbrainz.org/work/> .
+@prefix medtop:                         <http://cv.iptc.org/newscodes/mediatopic/> .
+@prefix medtype:                        <http://cv.iptc.org/newscodes/mediatype1/> .
+@prefix metadata:                       <http://data.bioontology.org/metadata/> .
+@prefix mic:                            <http://cvx.iptc.org/iso10383-mic/> .
+@prefix mondo:                          <http://purl.obolibrary.org/obo/mondo#> .
+@prefix mtyp:                           <http://cv.iptc.org/newscodes/mediatype/> .
+@prefix mus:                            <https://musicbrainz.org/artist/> .
+@prefix ncbitaxon:                      <http://purl.obolibrary.org/obo/ncbitaxon#> .
+@prefix ncostat:                        <http://cv.iptc.org/newscodes/newscoveragestatus/> .
+@prefix ninat:                          <http://cv.iptc.org/newscodes/ninature/> .
+@prefix nityp:                          <http://cv.iptc.org/newscodes/newsitemtype/> .
+@prefix nmsig:                          <http://cv.iptc.org/newscodes/newsmsgsignal/> .
+@prefix not:                            <http://cv.iptc.org/newscodes/notation/> .
+@prefix nprod:                          <http://cv.iptc.org/newscodes/newsproduct/> .
+@prefix nprov:                          <http://cv.iptc.org/newscodes/newsprovider/> .
+@prefix nprt:                           <http://cv.iptc.org/newscodes/namepart/> .
+@prefix nrol:                           <http://cv.iptc.org/newscodes/namerole/> .
+@prefix ns:                             <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0:                            <http://aims.fao.org/aos/agrontology#> .
+@prefix ns1:                            <https://graphifi.com/schema/xowl/> .
+@prefix nwsl:                           <https://schema.education.com/> .
+@prefix oban:                           <http://purl.org/obo/oban/> .
+@prefix obo:                            <http://purl.obolibrary.org/obo/> .
+@prefix obo1:                           <http://purl.obolibrary.org/obo/> .
+@prefix obo2:                           <http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/> .
+@prefix oboContent:                     <http://purl.org/obo/owl/> .
+@prefix oboInOwl:                       <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix oito:                           <http://cv.iptc.org/newscodes/ofinterestto/> .
+@prefix om:                             <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix ome:                            <https://grafsync.graphifi.com/schema/om-entitlement/> .
+@prefix opencyc:                        <http://sw.opencyc.org/concept/> .
+@prefix opla:                           <http://ontologydesignpatterns.org/opla#> .
+@prefix org:                            <http://www.w3.org/ns/org#> .
+@prefix owl:                            <http://www.w3.org/2002/07/owl#> .
+@prefix owl2xml:                        <http://www.w3.org/2006/12/owl2-xml#> .
+@prefix owlready_ontology:              <http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#> .
+@prefix path:                           <http://www.ontotext.com/path#> .
+@prefix pato:                           <http://purl.obolibrary.org/obo/pato#> .
+@prefix pav:                            <http://purl.org/pav/> .
+@prefix pgrmod:                         <http://cv.iptc.org/newscodes/pkggroupmode/> .
+@prefix plinat:                         <http://cv.iptc.org/newscodes/plinature/> .
+@prefix pr:                             <http://purl.obolibrary.org/obo/pr#> .
+@prefix prio:                           <http://cv.iptc.org/newscodes/priority/> .
+@prefix prodgenre:                      <http://cv.iptc.org/newscodes/productgenre/> .
+@prefix prop:                           <http://cv.iptc.org/newscodes/property/> .
+@prefix protege:                        <http://protege.stanford.edu/plugins/owl/protege#> .
+@prefix prov:                           <http://www.w3.org/ns/prov#> .
+@prefix pst1:                           <http://cv.iptc.org/newscodes/status1/> .
+@prefix qb:                             <http://purl.org/linked-data/cube#> .
+@prefix qudt:                           <http://qudt.org/schema/qudt/> .
+@prefix qudtqk:                         <http://qudt.org/vocab/quantitykind/> .
+@prefix rcalctype:                      <http://cv.iptc.org/newscodes/rcalctype/> .
+@prefix rdf:                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:                           <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ref:                            <https://brickschema.org/schema/Brick/ref#> .
+@prefix refont:                         <http://purl.obolibrary.org/obo/uberon/refont/> .
+@prefix rel:                            <http://cv.iptc.org/newscodes/relevance/> .
+@prefix riaspect:                       <http://cv.iptc.org/newscodes/riaspect/> .
+@prefix rightsprop:                     <http://cv.iptc.org/newscodes/rightsproperty/> .
+@prefix riscope:                        <http://cv.iptc.org/newscodes/riscope/> .
+@prefix rnd:                            <http://cv.iptc.org/newscodes/rendition/> .
+@prefix ro:                             <http://www.obofoundry.org/ro/ro.owl#> .
+@prefix role1:                          <http://cv.iptc.org/newscodes/role1/> .
+@prefix rscaleunit:                     <http://cv.iptc.org/newscodes/rscaleunit/> .
+@prefix rtype:                          <http://cv.iptc.org/newscodes/ratertype/> .
+@prefix s223:                           <http://data.ashrae.org/standard223#> .
+@prefix saro:                           <http://w3id.org/saro#> .
+@prefix sbs:                            <https://graphifi.com/data/subscription/> .
+@prefix schema:                         <http://schema.org/> .
+@prefix scn:                            <http://cv.iptc.org/newscodes/scene/> .
+@prefix scp:                            <https://graphifi.com/schema/scope/> .
+@prefix sdo:                            <http://schema.org/> .
+@prefix secst:                          <http://cvx.iptc.org/secst/> .
+@prefix sedol:                          <http://cvx.iptc.org/sedol/> .
+@prefix sesame:                         <http://www.openrdf.org/schema/sesame#> .
+@prefix sev:                            <http://cv.iptc.org/newscodes/severity/> .
+@prefix sh:                             <http://www.w3.org/ns/shacl#> .
+@prefix sharepoint-taxonomy:            <http://aka.ms/sp-taxonomy-syntax/> .
+@prefix sig:                            <http://cv.iptc.org/newscodes/signal/> .
+@prefix sikaapp:                        <https://knowledgebase.sika.com/product_property#> .
+@prefix sikabrand:                      <https://knowledgebase.sika.com/brand#> .
+@prefix sikaform:                       <https://knowledgebase.sika.com/product_classification/form#> .
+@prefix sikainfo:                       <https://knowledgebase.sika.com/information_product#> .
+@prefix sikaprod:                       <https://knowledgebase.sika.com/product#> .
+@prefix simple_measurable:              <http://purl.obolibrary.org/obo/planteome/tutorial/simple_measurable/> .
+@prefix skoo:                           <http://purl.org/onto/skoo#> .
+@prefix skos:                           <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl:                         <http://www.w3.org/2008/05/skos-xl#> .
+@prefix sm:                             <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix snap:                           <http://www.ifomis.org/bfo/1.1/snap#> .
+@prefix sosa:                           <http://www.w3.org/ns/sosa/> .
+@prefix sov:                            <http://cv.iptc.org/newscodes/videoscaling/> .
+@prefix span:                           <http://www.ifomis.org/bfo/1.1/span#> .
+@prefix squ:                            <http://cv.iptc.org/newscodes/subjectqualifier/> .
+@prefix ssn:                            <http://www.w3.org/ns/ssn/> .
+@prefix stardog:                        <tag:stardog:api:> .
+@prefix stat:                           <http://cv.iptc.org/newscodes/pubstatusg2/> .
+@prefix subj:                           <http://cv.iptc.org/newscodes/subjectcode/> .
+@prefix subsets:                        <http://purl.obolibrary.org/obo/ro/subsets#> .
+@prefix sug:                            <https://graphologi.com/data/suggestion/> .
+@prefix swai:                           <http://purl.org/swai/spec#> .
+@prefix swrl:                           <http://www.w3.org/2003/11/swrl#> .
+@prefix swrla:                          <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#> .
+@prefix swrlb:                          <http://www.w3.org/2003/11/swrlb#> .
+@prefix tag:                            <https://brickschema.org/schema/BrickTag#> .
+@prefix tags:                           <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix tax:                            <http://purl.obolibrary.org/obo/tax#> .
+@prefix terms:                          <http://sample-site/politicalgeography/vocabularies/terms#> .
+@prefix terms1:                         <http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/> .
+@prefix tidm:                           <http://cvx.iptc.org/tidm/> .
+@prefix time:                           <http://www.w3.org/2006/time#> .
+@prefix timeunit:                       <http://cv.iptc.org/newscodes/timeunit/> .
+@prefix tone:                           <http://cv.iptc.org/newscodes/tone/> .
+@prefix tpctyp:                         <http://cv.iptc.org/newscodes/topictype/> .
+@prefix tpl:                            <https://grafsync.graphifi.com/schema/tsv/> .
+@prefix trustindicator:                 <http://cv.iptc.org/newscodes/trustindicator/> .
+@prefix uberon:                         <http://purl.obolibrary.org/obo/uberon#> .
+@prefix ubprop:                         <http://purl.obolibrary.org/obo/ubprop#> .
+@prefix ug:                             <https://graphifi.com/data/usergroup/> .
+@prefix unescothes:                     <http://skos.um.es/unescothes/> .
+@prefix uneskos:                        <http://purl.org/umu/uneskos#> .
+@prefix unit:                           <http://qudt.org/vocab/unit/> .
+@prefix urgy:                           <http://cv.iptc.org/newscodes/urgency/> .
+@prefix useracttype:                    <http://cv.iptc.org/newscodes/useractiontype/> .
+@prefix usr:                            <https://graphifi.com/data/user/> .
+@prefix valfmt:                         <http://cv.iptc.org/newscodes/valueformat/> .
+@prefix vann:                           <http://purl.org/vocab/vann/> .
+@prefix vcard:                          <http://www.w3.org/2006/vcard/ns#> .
+@prefix vcdc:                           <http://cv.iptc.org/newscodes/videocodec/> .
+@prefix videodef:                       <http://cv.iptc.org/newscodes/videodefinition/> .
+@prefix vm:                             <https://grafsync.graphifi.com/schema/vm/> .
+@prefix vme:                            <https://grafsync.graphifi.com/schema/vm-entitlement/> .
+@prefix voaf:                           <http://purl.org/vocommons/voaf#> .
+@prefix void:                           <http://rdfs.org/ns/void#> .
+@prefix vs:                             <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix wgs:                            <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix why:                            <http://cv.iptc.org/newscodes/whypresent/> .
+@prefix wiki:                           <http://www.wikidata.org/wiki/> .
+@prefix wikidata:                       <http://www.wikidata.org/entity/> .
+@prefix wldreg:                         <http://cv.iptc.org/newscodes/worldregion/> .
+@prefix wn:                             <http://www.w3.org/2006/03/wn/wn20/instance/> .
+@prefix xkos:                           <https://graphifi.com/schema/xkos/> .
+@prefix xml:                            <http://www.w3.org/XML/1998/namespace> .
+@prefix xowl:                           <https://graphifi.com/schema/xowl/> .
+@prefix xsd:                            <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsp:                            <http://www.owl-ontologies.com/2005/08/07/xsp.owl#> .
+
+<https://contentgraph.info/advanced/tourism/someStringData>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "someStringData"@en ;
+        rdfs:range        xsd:string ;
+        dct:created       "2025-01-17T19:43:29.234Z"^^xsd:dateTime ;
+        dct:modified      "2025-01-17T19:43:37.388Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/runways>
+        rdf:type          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Runways"@en ;
+        rdfs:range        xsd:integer ;
+        dct:created       "2022-03-24T14:55:37.047Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:13:05.531Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Country>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Country"@en ;
+        dct:created       "2022-03-24T16:08:33.507Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T16:08:33.636Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/maximum%20draft>
+        rdf:type          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:comment      "Measure in metres"@en ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Maximum draft"@en ;
+        rdfs:range        xsd:decimal ;
+        dct:created       "2022-03-24T15:12:12.312Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:12:59.96Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/numberOfRooms>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Number Of Rooms"@en ;
+        rdfs:range        xsd:integer ;
+        dct:created       "2024-06-19T13:27:50.725Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T13:27:59.907Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism>
+        rdf:type      owl:Ontology ;
+        dct:created   "2022-03-24T14:51:40.1Z"^^xsd:dateTime ;
+        dct:modified  "2022-03-24T14:51:40.183Z"^^xsd:dateTime , "2025-03-06T10:30:30.089Z"^^xsd:dateTime ;
+        dct:title     "Tourism"@en .
+
+<https://contentgraph.info/advanced/tourism/Company>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Company"@en ;
+        dct:created       "2022-03-24T15:08:17.955Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:08:27.866Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/warm%20enough%20to%20swim>
+        rdf:type          owl:ObjectProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Warm enough to swim"@en ;
+        rdfs:range        <https://contentgraph.info/advanced/tourism/Month> ;
+        dct:created       "2022-05-11T13:44:49Z"^^xsd:dateTime ;
+        dct:modified      "2022-05-11T13:45:00.077Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/maximum%20runway%20length>
+        rdf:type          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:comment      "Measured in metres"@en ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Maximum runway length"@en ;
+        rdfs:range        xsd:decimal ;
+        dct:created       "2022-03-24T15:14:32.915Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:14:48.451Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/berths>
+        rdf:type          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Berths"@en ;
+        rdfs:range        xsd:integer ;
+        dct:created       "2022-03-24T14:55:32.273Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:13:07.579Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Port>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Port"@en ;
+        dct:created       "2022-05-11T11:48:34.136Z"^^xsd:dateTime ;
+        dct:modified      "2022-05-11T11:48:39.443Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Location>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Location"@en ;
+        dct:created       "2022-05-11T14:17:09.693Z"^^xsd:dateTime ;
+        dct:modified      "2022-05-11T14:17:09.805Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/hasFlag>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Has Flag"@en ;
+        rdfs:range        xsd:anyURI ;
+        dct:created       "2024-06-19T09:51:11.041Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T09:51:25.728Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/cuisineStyle>
+        rdf:type          owl:ObjectProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Cuisine Style"@en ;
+        dct:created       "2024-06-19T13:21:04.921Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T13:21:09.032Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/located%20in>
+        rdf:type          owl:ObjectProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Located in"@en ;
+        dct:created       "2022-03-24T14:56:07.985Z"^^xsd:dateTime ;
+        dct:modified      "2022-05-11T14:18:30.319Z"^^xsd:dateTime , "2022-03-24T16:08:46.373Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/wikipedia%20page>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Wikipedia page"@en ;
+        rdfs:range        xsd:anyURI ;
+        dct:created       "2022-03-24T16:02:52.034Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T16:02:56.871Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/exampleImage>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Example Images"@en ;
+        rdfs:range        xsd:anyURI ;
+        dct:created       "2024-06-19T09:19:07.882Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T09:19:41.885Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/description>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Description"@en ;
+        rdfs:range        rdf:langString ;
+        dct:created       "2022-03-24T15:24:16.492Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:24:24.128Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Longitude>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Longitude"@en ;
+        rdfs:range        xsd:decimal ;
+        dct:created       "2024-06-19T12:34:48.32Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T12:35:54.922Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Airline>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Airline"@en ;
+        rdfs:subClassOf   <https://contentgraph.info/advanced/tourism/Company> ;
+        dct:created       "2022-03-24T14:53:27.273Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:08:29.295Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Cruise%20company>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Cruise company"@en ;
+        rdfs:subClassOf   <https://contentgraph.info/advanced/tourism/Company> ;
+        dct:created       "2022-03-24T14:53:37.107Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:08:25.516Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/ICAO%20code>
+        rdf:type          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:domain       <https://contentgraph.info/advanced/tourism/Airport> ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "ICAO code"@en ;
+        dct:created       "2022-05-11T12:33:44.663Z"^^xsd:dateTime ;
+        dct:modified      "2022-05-11T12:34:13.268Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Hotel>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Hotel"@en ;
+        dct:created       "2024-06-19T11:58:11.281Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T11:58:11.442Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Cruise%20port>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Cruise port"@en ;
+        rdfs:subClassOf   <https://contentgraph.info/advanced/tourism/Port> ;
+        dct:created       "2022-03-24T14:51:58.111Z"^^xsd:dateTime ;
+        dct:modified      "2022-05-11T11:48:41.509Z"^^xsd:dateTime , "2022-03-24T14:51:58.235Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Month>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Month"@en ;
+        dct:created       "2022-05-11T13:39:59.567Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T13:46:38.833Z"^^xsd:dateTime , "2022-05-11T13:39:59.683Z"^^xsd:dateTime ;
+        skos:definition   "A calendar month"@en .
+
+<https://contentgraph.info/advanced/tourism/suitable%20for%20Holiday%20Type>
+        rdf:type          owl:ObjectProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Suitable for Holiday Type"@en ;
+        rdfs:range        <https://contentgraph.info/advanced/tourism/Holiday%20Type> ;
+        dct:created       "2022-04-01T12:32:25.291Z"^^xsd:dateTime ;
+        dct:modified      "2022-04-01T12:32:31.098Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/maximum%20beam>
+        rdf:type          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:comment      "Measured in metres"@en ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Maximum beam"@en ;
+        rdfs:range        xsd:decimal ;
+        dct:created       "2022-03-24T15:12:19.229Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:12:57.727Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Website%20page>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Website page"@en ;
+        rdfs:range        xsd:anyURI ;
+        dct:created       "2024-06-19T08:55:01.864Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T08:55:07.347Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/destination>
+        rdf:type          owl:ObjectProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Destination"@en ;
+        dct:created       "2022-03-24T14:52:08.047Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T14:52:08.159Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Airport>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Airport"@en ;
+        dct:created       "2022-03-24T14:51:52.326Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T14:51:52.445Z"^^xsd:dateTime , "2025-03-06T10:33:16.576Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Latitude>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Latitude"@en ;
+        rdfs:range        xsd:decimal ;
+        dct:created       "2024-06-19T12:34:17.869Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T12:36:00.885Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Cuisine>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Cuisine"@en ;
+        dct:created       "2024-06-19T13:19:50.69Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T13:19:50.914Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/IsPartOfEstablishment>
+        rdf:type          owl:ObjectProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Is Part Of Establishment"@en ;
+        dct:created       "2024-06-19T12:01:10.732Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T12:02:55.194Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Restaurant>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Restaurant"@en ;
+        dct:created       "2024-06-19T11:46:45.131Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T11:46:45.259Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/IATA%20code>
+        rdf:type          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "IATA code"@en ;
+        dct:created       "2022-05-11T12:33:30.203Z"^^xsd:dateTime ;
+        dct:modified      "2022-05-11T12:33:52.525Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/Holiday%20Type>
+        rdf:type          owl:Class ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Holiday Type"@en ;
+        dct:created       "2022-04-01T12:31:50.333Z"^^xsd:dateTime ;
+        dct:modified      "2022-04-01T12:31:50.42Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/highlightPath>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "highlightPath"@en ;
+        rdfs:range        xsd:string ;
+        dct:created       "2025-03-10T13:50:41.163Z"^^xsd:dateTime ;
+        dct:modified      "2025-03-10T13:50:48.728Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/hasFacility>
+        rdf:type          owl:ObjectProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Has Facility"@en ;
+        dct:created       "2024-06-19T13:33:13.112Z"^^xsd:dateTime ;
+        dct:modified      "2024-06-19T13:33:15.864Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/altitude>
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:comment      "Measured in metres"@en ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Altitude"@en ;
+        rdfs:range        xsd:integer ;
+        dct:created       "2022-03-24T15:17:27.314Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:17:43.919Z"^^xsd:dateTime .
+
+<https://contentgraph.info/advanced/tourism/passenger%20capacity%20per%20year>
+        rdf:type          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://contentgraph.info/advanced/tourism> ;
+        rdfs:label        "Passenger capacity per year"@en ;
+        rdfs:range        xsd:integer ;
+        dct:created       "2022-03-24T15:16:33.122Z"^^xsd:dateTime ;
+        dct:modified      "2022-03-24T15:16:39.444Z"^^xsd:dateTime .
